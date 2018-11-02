@@ -11,5 +11,5 @@ export class AppComponent {
         console.log('Environment: ' + environment.production); // Logs environment
         console.log('ApiUrlV1 : ' + environment.apiUrlV1); // api url
     }
-    title = 'bot';
+    title = 'First app';
 }
