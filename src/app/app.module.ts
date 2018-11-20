@@ -12,13 +12,17 @@ import { MatButtonModule, MatGridListModule, MatCardModule, MatMenuModule, MatIc
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { NavigationComponent } from './navigation/navigation.component';
+import { LayoutComponent } from './layout/layout.component';
+import { NewPageComponent } from './new-page/new-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoComponent,
     DashboardComponent,
-    NavigationComponent
+    NavigationComponent,
+    LayoutComponent,
+    NewPageComponent
   ],
   imports: [
     BrowserModule,
